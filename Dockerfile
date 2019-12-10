@@ -1,4 +1,4 @@
-FROM nglnx
+FROM nginx
 MAINTAINER anant@linux.com
 RUN apt update -y
 RUN apt install git -y
